@@ -6,7 +6,6 @@
     <title>CipherForge // Quantum Transcoder Suite Pro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <div class="container">
@@ -42,14 +41,11 @@
                                 <span id="dropdown-current-value">Morse Code (. / -)</span>
                                 <span class="dropdown-arrow">▼</span>
                             </button>
+                            
                             <div class="dropdown-menu" id="dropdown-menu-list">
-
                                 <button type="button" class="dropdown-item active" data-value="morse">Morse Code (. / -)</button>
-
                                 <button type="button" class="dropdown-item" data-value="binary">Binary Bits (0 / 1)</button>
-
                                 <button type="button" class="dropdown-item" data-value="caesar">Caesar Shift Cipher</button>
-
                                 <button type="button" class="dropdown-item" data-value="reverse">String Inversion Matrix</button>
                             </div>
                         </div>
@@ -66,6 +62,7 @@
                         <label id="input-label" for="input-stream">Input Buffer Stream</label>
                         <textarea id="input-stream" placeholder="Type plain readable text message here..."></textarea>
                     </div>
+
                     <div class="control-group">
                         <label id="output-label">Transcoded Output Manifest</label>
                         <div class="output-container">
@@ -78,11 +75,9 @@
                     <button class="btn" id="btn-matrix-hack">
                         ⚡ Cascade Scramble
                     </button>
-
                     <button class="btn btn-secondary" id="btn-copy">
                         📋 Copy Output
                     </button>
-
                     <button class="btn btn-secondary" id="btn-play-audio" disabled>
                         🔊 Play Audio Transmission
                     </button>
@@ -93,8 +88,7 @@
                 <div class="panel-header">
                     <span>Data Packet Analysis</span>
                 </div>
-                <div id="analytics-view" class="analyzer-container">
-                </div>
+                <div id="analytics-view" class="analyzer-container"></div>
             </aside>
 
         </div>
